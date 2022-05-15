@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+body {
+    
+    background-color: #D1C8BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#principal {
+    width: 1024px;
+    margin: 40px auto;
+}
+
+.header-top {
+    background-color: #011826;
+    height: 50px;
+    position: relative; 
+    /* A propriedade position é utilizada para manipular a localização e o comportamento de elementos em uma página */
+}
+
+.logotipo {
+    margin: 8px 0 0 160px;
+    
+}
+
+.header-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.header-nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px 0 0 ;
+    padding: 0px 10px;
+    
+
+}
+
+
+
+.header-nav a {
+    color:#D1C8BB;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px; /* tamanho fonte  */
+    letter-spacing: 2px; /*espaço entre letras*/
+    font-weight: bold;
+    transition-duration: .6s;
+    
+    
+}
+
+.header-nav a:hover {
+    color: black;
+    background-color: #D1C8BB;
+    padding: 17px;
+    
+}
+
+.portifolio {
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.portifolio h1 {
+    font-size: 30px;
+    color: #011826;
+}
+
+.portifolio p {
+    font-size: 17px;
+    line-height: 2;
+    color: #011826;
+}
+
+.gallery {
+    color: #011826;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-card {
+    
+    display: inline-block;
+    width: 33%;
+    float: left;
+    text-align: center;
+    
+}
+
+.gallery-title {
+    background-color: #011826;
+    color: white;
+    font-weight: bold; /* negrito */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 17px;
+    box-shadow: 2px 1px 5px black;
+    padding: 5px 7px ;
+    margin: 5px 10px;
+}
+
+.about{
+    background-color: #003d52;
+    background-image: url(bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    padding: 100px;
+}
+
+.about h2 {
+    text-transform: uppercase; /* texto maiusculo */
+    
+
+}
+
+.about p {
+    line-height: 1.5;
+    /* width: 50%; */
+}
+
+.contact {
+    margin: 0 0;
+
+}
+
+.contact address {
+    color: #003d52;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+.maps iframe {
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+
+.rodape {
+    background-color: #011826;
+    color: #D1C8BB;
+    padding: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
